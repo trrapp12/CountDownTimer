@@ -15,21 +15,19 @@ function countdowntimer(seconds) {
   const then = now + seconds * 1000;
 
   // the setInterval function calls a function on a set interval it has the following syntax:  setInterval(function() {do something; }, 3000); where setInterval is the set name, function is starting an anonymous function, do something is the action you want it to do, and 3000 would be 3000 milliseconds, or 3 seconds (the amount of time you want to wait inbetween calling the function)
-  setInterval( function(){
-
-    // tells me the setInterval function is getting called
-    console.log("setInterval is working")
+  setInterval(() => {
 
     // creating the secondsLeft variable got rid of the error, which is what we wanted, but now I am noticing that I am getting the same number console.logged.  Looking at it I forgot to change the console.log to reference the right thing.
     // I also noticed from the tutorial that he got the time again.  Trying to figure out why and why we can't just use the first value we got.  For now just going to make the change anyway.
     let secondsLeft = Math.round((then - Date.now()) / 1000);
 
+    // I found that the console.log is logging a few things weird.  1) it cycles through the top ten countdown in less than a second, and then when it does it again it starts with a value one less than what it started with.  I'm thinking the while loop is acting like a nested loop since the call back function already does the function of repeating the action every time.  I think that is why I'm consistently seeing people use a simple if statement in their examples. 
     while (secondsLeft > 0) {
       // *****  At this point in my code I am getting the following error: "Uncaught TypeError: Assignment to constant variable."  What is happening is that when I set the then-- it is trying to reassign a value to it when I have declared it as a const.  A constant is a value that cannot be altered by the program during normal execution. It cannot change through re-assignment, and it can't be redeclared. So what I will need to do is create a new variable and pass by value of the const to it.
       secondsLeft--;
       document.getElementById('timedisplay').innerHTML = secondsLeft;
       console.log(secondsLeft);
-      console.log("while loop is working")
+
     }
   }, 1000);
 };

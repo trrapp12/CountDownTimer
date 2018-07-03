@@ -21,10 +21,12 @@ function countdowntimer(seconds) {
     // I also noticed from the tutorial that he got the time again.  Trying to figure out why and why we can't just use the first value we got.  For now just going to make the change anyway.
     let secondsLeft = Math.round((then - Date.now()) / 1000);
 
-    // I found that the console.log is logging a few things weird.  1) it cycles through the top ten countdown in less than a second, and then when it does it again it starts with a value one less than what it started with.  I'm thinking the while loop is acting like a nested loop since the call back function already does the function of repeating the action every time.  I think that is why I'm consistently seeing people use a simple if statement in their examples. 
-    while (secondsLeft > 0) {
+    // I found that the console.log is logging a few things weird.  1) it cycles through the top ten countdown in less than a second, and then when it does it again it starts with a value one less than what it started with.  I'm thinking the while loop is acting like a nested loop since the call back function already does the function of repeating the action every time.  I think that is why I'm consistently seeing people use a simple if statement in their examples.
+    if (secondsLeft > 0) {
       // *****  At this point in my code I am getting the following error: "Uncaught TypeError: Assignment to constant variable."  What is happening is that when I set the then-- it is trying to reassign a value to it when I have declared it as a const.  A constant is a value that cannot be altered by the program during normal execution. It cannot change through re-assignment, and it can't be redeclared. So what I will need to do is create a new variable and pass by value of the const to it.
       secondsLeft--;
+
+      // l am noticing that whenever I start that there is a two second delay in when it actually displays.  I am wondering if having my display portion inside the loop is causing this. 
       document.getElementById('timedisplay').innerHTML = secondsLeft;
       console.log(secondsLeft);
 
@@ -32,4 +34,4 @@ function countdowntimer(seconds) {
   }, 1000);
 };
 
-countdowntimer(10);
+countdowntimer(12);

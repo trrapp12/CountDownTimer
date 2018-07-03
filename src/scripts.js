@@ -20,14 +20,15 @@ function countdowntimer(seconds) {
     // tells me the setInterval function is getting called
     console.log("setInterval is working")
 
-    // creating the secondsLeft variable got rid of the error, which is what we wanted, but now I am noticing that I am getting the same number console.logged.  Looking at it I forgot to change the console.log to reference the right thing. 
-    let secondsLeft = ((then - now) / 1000)
+    // creating the secondsLeft variable got rid of the error, which is what we wanted, but now I am noticing that I am getting the same number console.logged.  Looking at it I forgot to change the console.log to reference the right thing.
+    // I also noticed from the tutorial that he got the time again.  Trying to figure out why and why we can't just use the first value we got.  For now just going to make the change anyway.
+    let secondsLeft = Math.round((then - Date.now()) / 1000);
 
     while (secondsLeft > 0) {
       // *****  At this point in my code I am getting the following error: "Uncaught TypeError: Assignment to constant variable."  What is happening is that when I set the then-- it is trying to reassign a value to it when I have declared it as a const.  A constant is a value that cannot be altered by the program during normal execution. It cannot change through re-assignment, and it can't be redeclared. So what I will need to do is create a new variable and pass by value of the const to it.
       secondsLeft--;
       document.getElementById('timedisplay').innerHTML = secondsLeft;
-      console.log(then);
+      console.log(secondsLeft);
       console.log("while loop is working")
     }
   }, 1000);

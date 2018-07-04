@@ -8,7 +8,7 @@
 let setIntervalVar;
 const timerDisplay = document.querySelector('.display__time-left');
 const endTime = document.querySelector('.display__end-time');
-const buttons = document.querySelector('[data-time]')
+const buttons = document.querySelectorAll('[data-time]');
 
 function countdowntimer(seconds) {
 
@@ -27,7 +27,7 @@ function countdowntimer(seconds) {
   setIntervalVar = setInterval(() => {
     // creating the secondsLeft variable got rid of the error, which is what we wanted, but now I am noticing that I am getting the same number console.logged.  Looking at it I forgot to change the console.log to reference the right thing.
     // I also noticed from the tutorial that he got the time again.  Trying to figure out why and why we can't just use the first value we got.  For now just going to make the change anyway.
-    let secondsLeft = Math.round((then - Date.now()) / 1000);
+    const secondsLeft = Math.round((then - Date.now()) / 1000);
 
     // I found that the console.log is logging a few things weird.  1) it cycles through the top ten countdown in less than a second, and then when it does it again it starts with a value one less than what it started with.  I'm thinking the while loop is acting like a nested loop since the call back function already does the function of repeating the action every time.  I think that is why I'm consistently seeing people use a simple if statement in their examples.
     if (secondsLeft < 0) {
@@ -41,38 +41,33 @@ function countdowntimer(seconds) {
     displayTimeLeft(secondsLeft);
   }, 1000);
 
-
-  // function stopTimer() {
-  //   clearInterval(setIntervalVar);
-  // };
 }
 
 function displayTimeLeft(seconds) {
-  console.log(seconds)
   const minutes = Math.floor(seconds / 60);
   const remainderSeconds = seconds % 60;
-  const display = `${minutes}:${remainderSeconds < 10 ? '0' : ''}${remainderSeconds}`;
+  const display = `${minutes}:${remainderSeconds < 10 ? '0' : '' }${remainderSeconds}`;
   document.title = display;
   timerDisplay.textContent = display;
-
 }
 
 function displayEndTime(timestamp) {
   const end = new Date(timestamp);
   const hour = end.getHours();
+  const adjustedHour = hour > 12 ? hour - 12 : hour;
   const minutes = end.getMinutes();
-  endTime.textContent = `Be Back at ${hour > 12 ? hour - 12: hour}:${minutes < 10 ? '0' : ''}${minutes}`;
+  endTime.textContent = `Be Back At ${adjustedHour}:${minutes < 10 ? '0' : ''}${minutes}`;
 }
 
 function startTimer() {
   const seconds = parseInt(this.dataset.time);
-  timer(seconds);
+  countdowntimer(seconds);
 }
 
 buttons.forEach(button => button.addEventListener('click', startTimer));
-document.customForm.addEventListener('submit', function (e) {
+document.customForm.addEventListener('submit', function(e) {
   e.preventDefault();
   const mins = this.minutes.value;
-  timer(mins * 60);
+  countdowntimer(mins * 60);
   this.reset();
 });

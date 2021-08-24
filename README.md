@@ -32,10 +32,11 @@ The course demonstrates the following:
  ```
  git clone https://github.com/trrapp12/CountDownTimer.git
  ```
-  
-2. Make sure you are still in the CountDownTimer folder
-3. From the CountDownTimer folder, on the terminal, type `cd CountDownTimer`
-4. Type `start index.html` to run the program from the terminal
+  <br/>
+2. Make sure you are still in the CountDownTimer folder.
+ <br/>
+3. From the CountDownTimer folder, on the terminal, type `cd CountDownTimer`. <br/>
+4. Type `start index.html` to run the program from the terminal. <br/>
 5. Enjoy!
 <br/>
 <br/>

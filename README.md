@@ -52,6 +52,8 @@ The course demonstrates the following:
 
 - [x] updated CSS.
 - [x] changed time intervals.
+<br/>
+<br/>
 
 ### Next Steps for my v.2.0:
 ---

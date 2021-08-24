@@ -26,9 +26,9 @@ This is a tutorial project offered on [Wes Bos](https://github.com/wesbos)'s [#J
 ---
 
 1. Create a Folder to hold the program
-  - in the terminal type `mkdir CountDownTimer` or whatever other name you want to call it. 
-  - navigate into the folder by typing `cd CountDownTimer`
-  - clone the program into the Hangman folder you just created by typing: 
+ > - in the terminal type `mkdir CountDownTimer` or whatever other name you want to call it. 
+ > - navigate into the folder by typing `cd CountDownTimer`
+ > - clone the program into the Hangman folder you just created by typing: 
  
  ```
  git clone https://github.com/trrapp12/CountDownTimer.git

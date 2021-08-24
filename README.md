@@ -2,7 +2,7 @@
 
 ##### Contributors: Trevor Rapp, Wes Bos
 
-![hangman](https://cloud.githubusercontent.com/assets/11747875/8296599/8e007646-190f-11e5-83ce-64c7a3ef2ee2.jpg)
+![hangman](https://youtu.be/Picl4niaPqA)
 
 
 ### Description:

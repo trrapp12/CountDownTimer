@@ -35,8 +35,9 @@ This is a tutorial project offered on [Wes Bos](https://github.com/wesbos)'s [#J
  ```
   
 2. Make sure you are still in the CountDownTimer folder
-3. Type `start index.html` to run the program from the terminal
-4. Enjoy!
+3. From the CountDownTimer folder, on the terminal, type `cd CountDownTimer`
+4. Type `start index.html` to run the program from the terminal
+5. Enjoy!
 <br/>
 <br/>
 

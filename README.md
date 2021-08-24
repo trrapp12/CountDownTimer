@@ -10,14 +10,13 @@ https://user-images.githubusercontent.com/11747875/130660346-1817a4e1-c938-480e-
 
 This is a tutorial project offered on [Wes Bos](https://github.com/wesbos)'s [#JavaScript30](https://javascript30.com/) course.
 
+
+The course demonstrates the following:
 - [x] Correct use of JavaScript functions, loops
 - [x] adding EventListeners to DOM, buttons and using preventDefault()
 - [x] Date.now()
 - [x] querySelector() and querySelectorAll()
 - [x] template literals `` ` ``  and placeholders `&{}`
-
-
-
 
 <br/>
 <br/>

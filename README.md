@@ -13,10 +13,10 @@ This is a tutorial project offered on [Wes Bos](https://github.com/wesbos)'s [#J
 
 The course demonstrates the following:
 - [x] Correct use of JavaScript functions, loops
-- [x] adding EventListeners to DOM, buttons and using preventDefault()
-- [x] Date.now()
-- [x] querySelector() and querySelectorAll()
-- [x] template literals `` ` ``  and placeholders `&{}`
+- [x] Adding EventListeners to the DOM and buttons and using preventDefault()
+- [x] Use of Date.now()
+- [x] Use of querySelector() and querySelectorAll()
+- [x] Use of template literals `` ` ``  and placeholders `&{}`
 
 <br/>
 <br/>

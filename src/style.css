@@ -1,8 +1,7 @@
 html {
   box-sizing: border-box;
   font-size: 10px;
-  background: #8E24AA;
-  background: linear-gradient(45deg,  #42a5f5 0%,#478ed1 50%,#0d47a1 100%);
+  background: linear-gradient(90deg, #780000 0%,#000000 30%,#000000 99%, #780000 100%);
 }
 
 *, *:before, *:after {
@@ -19,18 +18,22 @@ body {
   font-weight: 100;
   font-size: 20rem;
   margin: 0;
-  color:white;
-  text-shadow:4px 4px 0 rgba(0,0,0,0.05);
+  color: white;
+  text-shadow: 4px 4px 0 rgb(0 0 0 / 5%);
+  margin-right: 50%;
 }
 
 .timer {
-  display:flex;
+  display: flex;
   min-height: 100vh;
-  flex-direction:column;
+  flex-direction: row;
 }
 
 .timer__controls {
   display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
 }
 
 .timer__controls > * {
@@ -49,16 +52,15 @@ body {
 }
 
 .timer__button {
-  background:none;
-  border:0;
+  background: none;
+  border: 2px;
+  border-color: white;
   cursor: pointer;
-  color:white;
+  color: white;
   font-size: 2rem;
   text-transform: uppercase;
-  background:rgba(0,0,0,0.1);
-  border-bottom:3px solid rgba(0,0,0,0.2);
-  border-right:1px solid rgba(0,0,0,0.2);
-  padding:1rem;
+  background: rgba(0,0,0,0.1);
+  padding: 1rem;
   font-family: 'Inconsolata', monospace;
 }
 
@@ -79,4 +81,5 @@ body {
 .display__end-time {
   font-size: 4rem;
   color:white;
+  margin-right: 63%;
 }

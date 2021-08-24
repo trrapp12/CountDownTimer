@@ -1,14 +1,25 @@
 # Count Down Timer
 
-##### Contributors: Trevor Rapp, Wes Bos
+##### Contributors: Trevor Rapp, [Wes Bos](https://github.com/wesbos)
 
-![hangman](https://youtu.be/Picl4niaPqA)
+https://user-images.githubusercontent.com/11747875/130660346-1817a4e1-c938-480e-bec7-4ea006d4852a.gif
 
 
 ### Description:
 ---
 
-This is version 2.0 of an earlier [Project](https://github.com/trrapp12/hang_man).  It evolved from the "hang_man" also listed in my GitHub account.  We simply took it and made it more object-oriented.
+This is a tutorial project offered on [Wes Bos](https://github.com/wesbos)'s [#JavaScript30](https://javascript30.com/) course.
+
+- [x] Correct use of JavaScript functions, loops
+- [x] adding EventListeners to DOM, buttons and using preventDefault()
+- [x] Date.now()
+- [x] querySelector() and querySelectorAll()
+- [x] template literals `\`` ` and placeholders `&{}`
+- [x] Display the number of turns remaining.
+- [x] Decrement the number of turns remaining.
+- [x] Display letters guessed in the position that they are contained in the word.
+
+
 
 <br/>
 <br/>

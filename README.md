@@ -14,10 +14,8 @@ This is a tutorial project offered on [Wes Bos](https://github.com/wesbos)'s [#J
 - [x] adding EventListeners to DOM, buttons and using preventDefault()
 - [x] Date.now()
 - [x] querySelector() and querySelectorAll()
-- [x] template literals `\`` ` and placeholders `&{}`
-- [x] Display the number of turns remaining.
-- [x] Decrement the number of turns remaining.
-- [x] Display letters guessed in the position that they are contained in the word.
+- [x] template literals `` ` ``  and placeholders `&{}`
+
 
 
 

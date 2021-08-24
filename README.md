@@ -25,74 +25,34 @@ This is a tutorial project offered on [Wes Bos](https://github.com/wesbos)'s [#J
 ### Instructions on how to launch:
 ---
 
-1. Make sure you have a Python interpreter installed: 
-  - on a Mac type &#8984;  + `space`
-  - type "terminal"
-  - press `Enter`
-  - in the shell command line type 
- 
- ```
- \\Check the system Python version
-$ python --version
-
-\\Check the Python 2 version
-$ python2 --version
-
-\\Check the Python 3 version
-$ python3 --version
-
-```
-
-2. This will show you if you have Python installed already and which version you have installed. 
- 
-3. If you need to, install Python
-  - From your browser navigate to Python.org
-  - On the Python.org page, find the links to download the file.  Versions are available for Mac or Windows.  However, I found the Mac version worked more consistently for me. 
-  <br/>
-  <br/>
-  
-  ![image](https://user-images.githubusercontent.com/11747875/129993191-4912f7c9-edeb-40ad-b73f-96a35f4dc884.png)
-  
-  <br/>
-  <br/>
-
-4. Create a Folder to hold the program
-  - in the terminal type `mkdir Hangman` or whatever other name you want to call it. 
-  - navigate into the folder by typing `cd Hangman`
+1. Create a Folder to hold the program
+  - in the terminal type `mkdir CountDownTimer` or whatever other name you want to call it. 
+  - navigate into the folder by typing `cd CountDownTimer`
   - clone the program into the Hangman folder you just created by typing: 
  
  ```
- https://github.com/trrapp12/object_oriented_hangman.git
+ git clone https://github.com/trrapp12/CountDownTimer.git
  ```
   
-5. Make sure you are still in the Hangman folder
-6. You should be able to see a program named 'hangman.py'.  If not, navigate back into the Hangman folder.  
-7. Type `python object_oriented_hangman.py` to run the program from the terminal
-8. The program runs from prompts in the Command Line, so watch for prompts and respond accordingly. 
-9. Enjoy!
+2. Make sure you are still in the CountDownTimer folder
+3. Type `start index.html` to run the program from the terminal
+4. Enjoy!
 <br/>
 <br/>
 
-### Original project demonstrated the following:
+### A few changes I made:
 ---
 
-- [x] Correct use of functions, conditionals, loops, arrays.
-- [x] Properly sequence Python statements.
-- [x] Select a random word from a dictionary of words.
-- [x] Display all guesses on the user's screen so the user knows what letters he/she has already guessed.
-- [x] Display a visual indication for each letter in the word.
-- [x] Display the number of turns remaining.
-- [x] Decrement the number of turns remaining.
-- [x] Display letters guessed in the position that they are contained in the word.
+- [x] updated CSS.
+- [x] changed time intervals.
 
-<br/>
-<br/>
-
-### This project adds additional use of:
+### Next Steps for my v.2.0:
 ---
-
-- [x] Object Oriented Programming techniques.
-- [x] Classes and Inheritance.
+- [ ] Create circle animation for countdown.
+- [ ] Create functionality to go multiple rounds with programmable rest times.
+- [ ] Add "+" and "-" buttons to add or decrement time.
+- [ ] Publish in a format I can use on my phone for my own boxing workouts.
+- [ ] Add boxing sounds to indicate 10 sec warning and end of round.
 
 <br/>
 <br/>

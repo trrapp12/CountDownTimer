@@ -1,14 +1,14 @@
-// steps to create this
+
 // have to get current time
 // store that in a variable
 // every second subtract 1 second from that time
 // tell it to stop when it hits 0
 
 // declaring the variable here gives it a space in memory before everything else is created and then makes it globally available
-let setIntervalVar;
-const timerDisplay = document.querySelector('.display__time-left');
-const endTime = document.querySelector('.display__end-time');
-const buttons = document.querySelectorAll('[data-time]');
+var setIntervalVar;
+var timerDisplay = document.querySelector('.display__time-left');
+var endTime = document.querySelector('.display__end-time');
+var buttons = document.querySelectorAll('[data-time]');
 
 function countdowntimer(seconds) {
 
@@ -20,7 +20,7 @@ function countdowntimer(seconds) {
   const now = Date.now();
 
   // this creates a new variable "then" by taking the current time and adding "seconds," the argument we have passed in.  The *1000 is to convert the seconds which will come as milliseconds into seconds.
-  const then = now + seconds * 1000;
+  const then = (now + seconds * 1000);
   displayTimeLeft(seconds);
   displayEndTime(then);
   // the setInterval function calls a function on a set interval it has the following syntax:  setInterval(function() {do something; }, 3000); where setInterval is the set name, function is starting an anonymous function, do something is the action you want it to do, and 3000 would be 3000 milliseconds, or 3 seconds (the amount of time you want to wait inbetween calling the function)

@@ -59,9 +59,13 @@ The course demonstrates the following:
 ---
 - [ ] Create circle animation for countdown.
 - [ ] Create functionality to go multiple rounds with programmable rest times.
+- [ ] Adjust circle animation for every interval and every wait.
 - [ ] Add "+" and "-" buttons to add or decrement time.
 - [ ] Publish in a format I can use on my phone for my own boxing workouts.
-- [ ] Add boxing sounds to indicate 10 sec warning and end of round.
+- [X] Add boxing sounds to indicate start of round.
+- [X] Add boxing sounds to indicate 10 sec warning and end of round.
+- [X] Add boxing sounds to indicate end of round.
+- [X] Add functionality so the sound will stop when you click a new button, so the start bell will always coordinate with you clicking a new button.
 
 <br/>
 <br/>

@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   font-size: 10px;
-  background: linear-gradient(90deg, #780000 0%,#000000 30%,#000000 99%, #780000 100%);
+  background: linear-gradient(90deg, #780000 0%,#000000 30%,#000000 99%, #000000 100%);
 }
 
 *, *:before, *:after {
@@ -34,6 +34,7 @@ body {
   flex-direction: column;
   align-content: center;
   flex-wrap: wrap;
+  width: 15%;
 }
 
 .timer__controls > * {
@@ -57,11 +58,16 @@ body {
   border-color: white;
   cursor: pointer;
   color: white;
-  font-size: 2rem;
+  font-size: 4rem;
   text-transform: uppercase;
   background: rgba(0,0,0,0.1);
   padding: 1rem;
   font-family: 'Inconsolata', monospace;
+  width: 100%;
+}
+
+.timer__button .plus {
+  font-size: 5rem;
 }
 
 .timer__button:hover,

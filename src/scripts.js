@@ -9,6 +9,9 @@ var setIntervalVar;
 var timerDisplay = document.querySelector('.display__time-left');
 var endTime = document.querySelector('.display__end-time');
 var buttons = document.querySelectorAll('[data-time]');
+var startBell = new Audio('./media/ES_Boxing_Bell_Ring_1_SFX_Producer.mp3');
+var warningBell = new Audio('./media/ES_Boxing_Bell_Ring_2_SFX_Producer.mp3');
+var completeBell = new Audio('./media/ES_Boxing_Bell_Ring_3_SFX_Producer.mp3');
 
 function countdowntimer(seconds) {
 
@@ -23,6 +26,10 @@ function countdowntimer(seconds) {
   const then = (now + seconds * 1000);
   displayTimeLeft(seconds);
   displayEndTime(then);
+  // ringBellStart();
+  startBell.pause();
+  startBell.currentTime = 0;
+  startBell.play();
   // the setInterval function calls a function on a set interval it has the following syntax:  setInterval(function() {do something; }, 3000); where setInterval is the set name, function is starting an anonymous function, do something is the action you want it to do, and 3000 would be 3000 milliseconds, or 3 seconds (the amount of time you want to wait inbetween calling the function)
   setIntervalVar = setInterval(() => {
     // creating the secondsLeft variable got rid of the error, which is what we wanted, but now I am noticing that I am getting the same number console.logged.  Looking at it I forgot to change the console.log to reference the right thing.
@@ -64,9 +71,17 @@ function startTimer() {
   countdowntimer(seconds);
 }
 
-function ringBellEnd () {
-
-}
+// function ringBellStart () {
+//   startBell.play();
+// }
+//
+// function ringBellWarning () {
+//   warningBell.play();
+// }
+//
+// function ringBellEnd () {
+//   completeBell.play();
+// }
 
 buttons.forEach(button => button.addEventListener('click', startTimer));
 document.customForm.addEventListener('submit', function(e) {

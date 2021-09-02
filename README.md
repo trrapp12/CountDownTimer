@@ -4,6 +4,14 @@
 
 ![Gif Demo](https://user-images.githubusercontent.com/11747875/130660346-1817a4e1-c938-480e-bec7-4ea006d4852a.gif)
 
+---
+
+<img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
+<img align="left" alt="CSS3" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
+<img align="left" alt="JavaScript" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
+<br>
+
+---
 
 ### Description:
 ---
@@ -73,6 +81,6 @@ The course demonstrates the following:
 ### More Information:
 ---
 
-\**For more information see my [Portfolio](https://trrapp12.github.io/Trevor-Rapp-Portfolio/), [LinkedIn](https://www.linkedin.com/in/trevor-rapp-042a1037), or return to my [Github](https://github.com/trrapp12)*
+\**For more information see my [LinkedIn](https://www.linkedin.com/in/trevor-rapp-042a1037), or return to my [Github](https://github.com/trrapp12)*
 
 

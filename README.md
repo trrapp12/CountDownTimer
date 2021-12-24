@@ -65,8 +65,8 @@ The course demonstrates the following:
 ### A few changes I made:
 ---
 
-- [x] updated CSS.
-- [x] changed time intervals.
+🆕 updated CSS.
+🆕 changed time intervals.
 <br/>
 <br/>
 
@@ -77,10 +77,11 @@ The course demonstrates the following:
 - [ ] Adjust circle animation for every interval and every wait.
 - [ ] Add "+" and "-" buttons to add or decrement time.
 - [ ] Publish in a format I can use on my phone for my own boxing workouts.
-- [X] Add boxing sounds to indicate start of round.
-- [X] Add boxing sounds to indicate 10 sec warning and end of round.
-- [X] Add boxing sounds to indicate end of round.
-- [X] Add functionality so the sound will stop when you click a new button, so the start bell will always coordinate with you clicking a new button.
+
+🆕 Add boxing sounds to indicate start of round.
+🆕 Add boxing sounds to indicate 10 sec warning and end of round.
+🆕 Add boxing sounds to indicate end of round.
+🆕 Add functionality so the sound will stop when you click a new button, so the start bell will always coordinate with you clicking a new button.
 
 <br/>
 <br/>

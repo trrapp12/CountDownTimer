@@ -66,7 +66,9 @@ The course demonstrates the following:
 ---
 
 🆕 updated CSS.
+
 🆕 changed time intervals.
+
 <br/>
 <br/>
 
@@ -79,9 +81,13 @@ The course demonstrates the following:
 - [ ] Publish in a format I can use on my phone for my own boxing workouts.
 
 🆕 Add boxing sounds to indicate start of round.
+
 🆕 Add boxing sounds to indicate 10 sec warning and end of round.
+
 🆕 Add boxing sounds to indicate end of round.
+
 🆕 Add functionality so the sound will stop when you click a new button, so the start bell will always coordinate with you clicking a new button.
+
 
 <br/>
 <br/>

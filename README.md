@@ -56,16 +56,8 @@
 
 This is a tutorial project offered on [Wes Bos](https://github.com/wesbos)'s [#JavaScript30](https://javascript30.com/) course.
 
-
-The course demonstrates the following:
-- [x] Correct use of JavaScript functions, loops
-- [x] Adding EventListeners to the DOM and buttons and using preventDefault()
-- [x] Use of Date.now()
-- [x] Use of querySelector() and querySelectorAll()
-- [x] Use of template literals `` ` ``  and placeholders `&{}`
-
-<br/>
-<br/>
+<br>
+<br>
 
 ---
 
@@ -94,6 +86,20 @@ The course demonstrates the following:
 
 🆕 Add functionality so the sound will stop when you click a new button, so the start bell will always coordinate with you clicking a new button.
 
+
+<br/>
+<br/>
+
+---
+
+### Version 1.0 demonstrates: 
+
+The course demonstrates the following:
+- [x] Correct use of JavaScript functions, loops
+- [x] Adding EventListeners to the DOM and buttons and using preventDefault()
+- [x] Use of Date.now()
+- [x] Use of querySelector() and querySelectorAll()
+- [x] Use of template literals `` ` ``  and placeholders `&{}`
 
 <br/>
 <br/>

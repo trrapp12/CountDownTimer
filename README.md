@@ -1,6 +1,6 @@
 # Count Down Timer
 
-##### Contributors: Trevor Rapp, [Wes Bos](https://github.com/wesbos)
+#### Project modified from a [Wes Bos](https://github.com/wesbos) tutorial.
 
 <br>
 
@@ -11,33 +11,21 @@
 
 ![Gif Demo](https://user-images.githubusercontent.com/11747875/130660346-1817a4e1-c938-480e-bec7-4ea006d4852a.gif)
 
+<br>
+<br>
+
 ---
 
 <img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
 <img align="left" alt="CSS3" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
 <img align="left" alt="JavaScript" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
 <br>
+<br>
 
 ---
 
-### Description:
----
+### How to Use:
 
-This is a tutorial project offered on [Wes Bos](https://github.com/wesbos)'s [#JavaScript30](https://javascript30.com/) course.
-
-
-The course demonstrates the following:
-- [x] Correct use of JavaScript functions, loops
-- [x] Adding EventListeners to the DOM and buttons and using preventDefault()
-- [x] Use of Date.now()
-- [x] Use of querySelector() and querySelectorAll()
-- [x] Use of template literals `` ` ``  and placeholders `&{}`
-
-<br/>
-<br/>
-
-### Instructions on how to launch:
----
 
 1. Create a Folder to hold the program
  > - in the terminal type `mkdir CountDownTimer` or whatever other name you want to call it. 
@@ -62,8 +50,27 @@ The course demonstrates the following:
 <br/>
 <br/>
 
-### A few changes I made:
 ---
+
+### Description:
+
+This is a tutorial project offered on [Wes Bos](https://github.com/wesbos)'s [#JavaScript30](https://javascript30.com/) course.
+
+
+The course demonstrates the following:
+- [x] Correct use of JavaScript functions, loops
+- [x] Adding EventListeners to the DOM and buttons and using preventDefault()
+- [x] Use of Date.now()
+- [x] Use of querySelector() and querySelectorAll()
+- [x] Use of template literals `` ` ``  and placeholders `&{}`
+
+<br/>
+<br/>
+
+---
+
+### Version 2.0 (my alterations) demonstrate:
+
 
 🆕 updated CSS.
 
@@ -73,7 +80,7 @@ The course demonstrates the following:
 <br/>
 
 ### Next Steps for my v.2.0:
----
+
 - [ ] Create circle animation for countdown.
 - [ ] Create functionality to go multiple rounds with programmable rest times.
 - [ ] Adjust circle animation for every interval and every wait.
@@ -92,8 +99,9 @@ The course demonstrates the following:
 <br/>
 <br/>
 
-### More Information:
 ---
+
+### More Information:
 
 \**For more information see my [LinkedIn](https://www.linkedin.com/in/trevor-rapp-042a1037), or return to my [Github](https://github.com/trrapp12)*
 

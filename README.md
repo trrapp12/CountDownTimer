@@ -1,6 +1,9 @@
 # Count Down Timer
 
-#### Project modified from a [Wes Bos](https://github.com/wesbos) tutorial.
+
+##### Contributors: Trevor Rapp, modified from a [Wes Bos](https://github.com/wesbos) tutorial.
+
+---
 
 <br>
 

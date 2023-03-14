@@ -59,9 +59,6 @@
 
 This is a tutorial project offered on [Wes Bos](https://github.com/wesbos)'s [#JavaScript30](https://javascript30.com/) course.
 
-<br>
-<br>
-
 ---
 
 ### Version 2.0 (my alterations) demonstrate:
@@ -89,10 +86,6 @@ This is a tutorial project offered on [Wes Bos](https://github.com/wesbos)'s [#J
 
 🆕 Add functionality so the sound will stop when you click a new button, so the start bell will always coordinate with you clicking a new button.
 
-
-<br/>
-<br/>
-
 ---
 
 ### Version 1.0 demonstrates: 
@@ -103,9 +96,6 @@ The course demonstrates the following:
 - [x] Use of Date.now()
 - [x] Use of querySelector() and querySelectorAll()
 - [x] Use of template literals `` ` ``  and placeholders `&{}`
-
-<br/>
-<br/>
 
 ---
 

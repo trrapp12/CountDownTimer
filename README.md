@@ -23,12 +23,26 @@
 <img align="left" alt="CSS3" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
 <img align="left" alt="JavaScript" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
 <br>
-<br>
 
 ---
 
-### How to Use:
+### Description:
 
+>“The fight is won or lost far away from witnesses—behind the lines,
+>in the gym, and out there on the road,
+>long before I dance under those lights.”
+>
+> -- Muhammad Ali, The Greatest: My Own Story (1975)
+
+Read more at: https://www.blinkist.com/magazine/posts/knockout-inspiration-top-10-boxing-quotes-fuel-fighting-spirit?utm_source=cpp
+
+*This is a tutorial project offered on [Wes Bos](https://github.com/wesbos)'s [#JavaScript30](https://javascript30.com/) course.*
+
+<br/>
+
+---
+
+### QUICKSTART GUIDE:
 
 1. Create a Folder to hold the program
  > - in the terminal type `mkdir CountDownTimer` or whatever other name you want to call it. 
@@ -53,25 +67,12 @@
 <br/>
 <br/>
 
----
-
-### Description:
-
->“The fight is won or lost far away from witnesses—behind the lines,
->in the gym, and out there on the road,
->long before I dance under those lights.”
->
-> -- Muhammad Ali, The Greatest: My Own Story (1975)
-
-Read more at: https://www.blinkist.com/magazine/posts/knockout-inspiration-top-10-boxing-quotes-fuel-fighting-spirit?utm_source=cpp
-
-*This is a tutorial project offered on [Wes Bos](https://github.com/wesbos)'s [#JavaScript30](https://javascript30.com/) course.*
+<br/>
 
 ---
 
-### Version 1.0 demonstrates: 
+### THIS PROJECT DEMONSTRATES THE FOLLOWING:
 
-The course demonstrates the following:
 - [x] Correct use of JavaScript functions, loops
 - [x] Adding EventListeners to the DOM and buttons and using preventDefault()
 - [x] Use of Date.now()

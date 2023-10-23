@@ -34,6 +34,8 @@
 >
 > -- Muhammad Ali, The Greatest: My Own Story (1975)
 
+<br/>
+
 *This is a tutorial project offered on [Wes Bos](https://github.com/wesbos)'s [#JavaScript30](https://javascript30.com/) course.*
 
 <br/>

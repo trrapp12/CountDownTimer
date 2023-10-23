@@ -34,8 +34,6 @@
 >
 > -- Muhammad Ali, The Greatest: My Own Story (1975)
 
-Read more at: https://www.blinkist.com/magazine/posts/knockout-inspiration-top-10-boxing-quotes-fuel-fighting-spirit?utm_source=cpp
-
 *This is a tutorial project offered on [Wes Bos](https://github.com/wesbos)'s [#JavaScript30](https://javascript30.com/) course.*
 
 <br/>

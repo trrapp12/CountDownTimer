@@ -99,8 +99,32 @@ The course demonstrates the following:
 
 ---
 
-### More Information:
+### CHALLENGES I OVERCAME:
 
-\**For more information see my [LinkedIn](https://www.linkedin.com/in/trevor-rapp-042a1037), or return to my [Github](https://github.com/trrapp12)*
+* Completing the tutorial.
+
+<br/>
+
+---
+
+### MY OWN PERSONAL CONTRIBUTIONS INCLUDED:
+
+- [X] I did not contribute any significant amount of work to this project other than following along.
+
+<br/>
+
+---
+
+### ATTRIBUTIONS
+
+* Tutorial created by Wes Bos.
+
+<br/>
+
+---
+
+### YOU CAN FIND ME AT:
+
+*For more information see my [LinkedIn](https://www.linkedin.com/in/trevor-rapp-042a1037) or return to my [Github](https://github.com/trrapp12)*
 
 

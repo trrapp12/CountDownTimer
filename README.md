@@ -15,7 +15,6 @@
 ![Gif Demo](https://user-images.githubusercontent.com/11747875/130660346-1817a4e1-c938-480e-bec7-4ea006d4852a.gif)
 
 <br>
-<br>
 
 ---
 
@@ -64,9 +63,7 @@
 <br/>
 
 5. Enjoy!
-<br/>
-<br/>
-
+   
 <br/>
 
 ---
@@ -78,6 +75,8 @@
 - [x] Use of Date.now()
 - [x] Use of querySelector() and querySelectorAll()
 - [x] Use of template literals `` ` ``  and placeholders `&{}`
+
+<br/>
 
 ---
 

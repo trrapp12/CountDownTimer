@@ -57,34 +57,15 @@
 
 ### Description:
 
-This is a tutorial project offered on [Wes Bos](https://github.com/wesbos)'s [#JavaScript30](https://javascript30.com/) course.
+>“The fight is won or lost far away from witnesses—behind the lines,
+>in the gym, and out there on the road,
+>long before I dance under those lights.”
+>
+> -- Muhammad Ali, The Greatest: My Own Story (1975)
 
----
+Read more at: https://www.blinkist.com/magazine/posts/knockout-inspiration-top-10-boxing-quotes-fuel-fighting-spirit?utm_source=cpp
 
-### Version 2.0 (my alterations) demonstrate:
-
-
-🆕 updated CSS.
-
-🆕 changed time intervals.
-
-<br/>
-
-### Next Steps for my v.2.0:
-
-- [ ] Create circle animation for countdown.
-- [ ] Create functionality to go multiple rounds with programmable rest times.
-- [ ] Adjust circle animation for every interval and every wait.
-- [ ] Add "+" and "-" buttons to add or decrement time.
-- [ ] Publish in a format I can use on my phone for my own boxing workouts.
-
-🆕 Add boxing sounds to indicate start of round.
-
-🆕 Add boxing sounds to indicate 10 sec warning and end of round.
-
-🆕 Add boxing sounds to indicate end of round.
-
-🆕 Add functionality so the sound will stop when you click a new button, so the start bell will always coordinate with you clicking a new button.
+*This is a tutorial project offered on [Wes Bos](https://github.com/wesbos)'s [#JavaScript30](https://javascript30.com/) course.*
 
 ---
 
@@ -109,7 +90,9 @@ The course demonstrates the following:
 
 ### MY OWN PERSONAL CONTRIBUTIONS INCLUDED:
 
-- [X] I did not contribute any significant amount of work to this project other than following along.
+- [X] updated CSS.
+      
+- [X] changed time intervals.
 
 <br/>
 
